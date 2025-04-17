@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &44400798476002030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 44400798476002031}
+  - component: {fileID: 44400798476002028}
+  m_Layer: 5
+  m_Name: WordContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &44400798476002031
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44400798476002030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 720, y: 1480}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &44400798476002028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44400798476002030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d62bb27fa2a5224a926df3e843a7383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gm: {fileID: 0}
+  wordContainer: []
+  textGameObjects: []
+  correctWords:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  scriptableWordContainer:
+  - {fileID: 11400000, guid: 8c5f4efade30e304c81eafc8034de5be, type: 2}
+  - {fileID: 11400000, guid: 1e19bdcf76e0e324f88bb25ad67dbf38, type: 2}
+  - {fileID: 11400000, guid: 23437df01e35f724580200c97d7fc537, type: 2}
+  - {fileID: 11400000, guid: 44af88b6994bede4f8ff11d1730ced7e, type: 2}
+  - {fileID: 11400000, guid: 28332b58693d31e48bbd48ae76a6a03c, type: 2}
+  - {fileID: 11400000, guid: 6a42862bcfd258349a2f3701c37fb8d0, type: 2}
+  - {fileID: 11400000, guid: 6042929de54252e4c9c34f98b531eed9, type: 2}
+  - {fileID: 11400000, guid: 0fa3cb5e4964b5b4b94216307f6a3f48, type: 2}
+  isGameOver: 0
+  correctAnim: 0
+  result: 
+  selectedLetters1:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  selectedLetters2:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  selectedLetters3:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  selectedLetterImage1: {fileID: 0}
+  selectedLetterImage2: {fileID: 0}
+  selectedLetterImage3: {fileID: 0}

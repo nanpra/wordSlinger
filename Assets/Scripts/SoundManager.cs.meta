@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ae197e47379916b47b41b6d8aa7597be
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shootclip: {fileID: 8300000, guid: b66e819d24ad490498eb2e12ef51901a, type: 3}
+  - holsterClip: {fileID: 8300000, guid: e9af7343e85dea94dbc8b248d1a624a0, type: 3}
+  - hammerUpClick: {fileID: 8300000, guid: 102ee4e33260c1744a80bf1170beccc1, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
